@@ -1,0 +1,208 @@
+{
+    "columns": [
+        {
+            "max": 90.0,
+            "min": 17.0,
+            "name": "age",
+            "type": "continuous"
+        },
+        {
+            "i2s": [
+                "Private",
+                "Self-emp-not-inc",
+                "Local-gov",
+                "?",
+                "State-gov",
+                "Self-emp-inc",
+                "Federal-gov",
+                "Without-pay",
+                "Never-worked"
+            ],
+            "name": "workclass",
+            "size": 9,
+            "type": "categorical"
+        },
+        {
+            "max": 1484705.0,
+            "min": 12285.0,
+            "name": "fnlwgt",
+            "type": "continuous"
+        },
+        {
+            "i2s": [
+                "Preschool",
+                "1st-4th",
+                "5th-6th",
+                "7th-8th",
+                "9th",
+                "10th",
+                "11th",
+                "12th",
+                "HS-grad",
+                "Prof-school",
+                "Assoc-voc",
+                "Assoc-acdm",
+                "Some-college",
+                "Bachelors",
+                "Masters",
+                "Doctorate"
+            ],
+            "name": "education",
+            "size": 16,
+            "type": "ordinal"
+        },
+        {
+            "max": 16.0,
+            "min": 1.0,
+            "name": "education-num",
+            "type": "continuous"
+        },
+        {
+            "i2s": [
+                "Married-civ-spouse",
+                "Never-married",
+                "Divorced",
+                "Separated",
+                "Widowed",
+                "Married-spouse-absent",
+                "Married-AF-spouse"
+            ],
+            "name": "marital-status",
+            "size": 7,
+            "type": "categorical"
+        },
+        {
+            "i2s": [
+                "Prof-specialty",
+                "Craft-repair",
+                "Exec-managerial",
+                "Adm-clerical",
+                "Sales",
+                "Other-service",
+                "Machine-op-inspct",
+                "?",
+                "Transport-moving",
+                "Handlers-cleaners",
+                "Farming-fishing",
+                "Tech-support",
+                "Protective-serv",
+                "Priv-house-serv",
+                "Armed-Forces"
+            ],
+            "name": "occupation",
+            "size": 15,
+            "type": "categorical"
+        },
+        {
+            "i2s": [
+                "Husband",
+                "Not-in-family",
+                "Own-child",
+                "Unmarried",
+                "Wife",
+                "Other-relative"
+            ],
+            "name": "relationship",
+            "size": 6,
+            "type": "categorical"
+        },
+        {
+            "i2s": [
+                "White",
+                "Black",
+                "Asian-Pac-Islander",
+                "Amer-Indian-Eskimo",
+                "Other"
+            ],
+            "name": "race",
+            "size": 5,
+            "type": "categorical"
+        },
+        {
+            "i2s": [
+                "Male",
+                "Female"
+            ],
+            "name": "sex",
+            "size": 2,
+            "type": "categorical"
+        },
+        {
+            "max": 99999.0,
+            "min": 0.0,
+            "name": "capital-gain",
+            "type": "continuous"
+        },
+        {
+            "max": 4356.0,
+            "min": 0.0,
+            "name": "capital-loss",
+            "type": "continuous"
+        },
+        {
+            "max": 99.0,
+            "min": 1.0,
+            "name": "hours-per-week",
+            "type": "continuous"
+        },
+        {
+            "i2s": [
+                "United-States",
+                "Mexico",
+                "?",
+                "Philippines",
+                "Germany",
+                "Canada",
+                "Puerto-Rico",
+                "El-Salvador",
+                "India",
+                "Cuba",
+                "England",
+                "Jamaica",
+                "South",
+                "China",
+                "Italy",
+                "Dominican-Republic",
+                "Vietnam",
+                "Guatemala",
+                "Japan",
+                "Poland",
+                "Columbia",
+                "Taiwan",
+                "Haiti",
+                "Iran",
+                "Portugal",
+                "Nicaragua",
+                "Peru",
+                "Greece",
+                "France",
+                "Ecuador",
+                "Ireland",
+                "Hong",
+                "Cambodia",
+                "Trinadad&Tobago",
+                "Thailand",
+                "Laos",
+                "Yugoslavia",
+                "Outlying-US(Guam-USVI-etc)",
+                "Hungary",
+                "Honduras",
+                "Scotland",
+                "Holand-Netherlands"
+            ],
+            "name": "native-country",
+            "size": 42,
+            "type": "categorical"
+        },
+        {
+            "i2s": [
+                "<=50K",
+                ">50K"
+            ],
+            "name": "label",
+            "size": 2,
+            "type": "categorical"
+        }
+    ],
+    "problem_type": "binary_classification"
+}
